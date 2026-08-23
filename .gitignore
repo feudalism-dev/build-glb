@@ -1,0 +1,16 @@
+node_modules/
+dist/
+test-fixtures/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local machine paths — never commit these
+exports-path.txt
+.env
+.env.*
+
+# Accidental texture / mesh dumps in the repo folder
+Exports/
+*.glb
+!docs/**

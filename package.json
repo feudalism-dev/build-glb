@@ -1,0 +1,55 @@
+{
+  "name": "build-glb",
+  "version": "1.0.0",
+  "description": "Build Second Life PBR GLBs (and Blinn-Phong helpers) from Instamat/Materialize texture exports",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "build-glb": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsx src/index.ts build",
+    "watch": "tsx src/index.ts watch",
+    "inspect": "tsx src/index.ts inspect",
+    "make-placeholder": "tsx src/index.ts make-placeholder",
+    "compile": "tsc",
+    "test:parse": "tsx src/parse.test.ts",
+    "test:blinn": "tsx src/blinnphong.test.ts",
+    "test:materials": "tsx src/materials-only.test.ts"
+  },
+  "keywords": [
+    "instamat",
+    "materialize",
+    "glb",
+    "gltf",
+    "second-life",
+    "pbr",
+    "blinn-phong"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feudlaism-dev/build-glb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feudlaism-dev/build-glb/issues"
+  },
+  "homepage": "https://github.com/feudlaism-dev/build-glb#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4.4.2",
+    "@gltf-transform/extensions": "^4.4.2",
+    "chokidar": "^5.0.0",
+    "commander": "^15.0.0",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "@types/sharp": "^0.31.1",
+    "tsx": "^4.23.9",
+    "typescript": "^7.0.2"
+  }
+}

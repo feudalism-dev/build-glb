@@ -1,0 +1,10 @@
+# Path to your Instamat / Materialize Exports folder.
+# Copy this file to exports-path.txt and edit the line below.
+# exports-path.txt is gitignored (keeps your local path private).
+#
+# Examples:
+#   C:\Users\YourName\Documents\InstaMAT\Exports
+#   /home/you/InstaMAT/Exports
+#   D:\Textures\Exports
+
+C:\Users\YourName\Documents\InstaMAT\Exports
