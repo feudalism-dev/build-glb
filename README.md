@@ -28,7 +28,7 @@ A master mesh `.glb` is **optional**. If missing, a materials-only GLB is create
 ## Quick start
 
 ```bash
-git clone https://github.com/feudlaism-dev/build-glb.git
+git clone https://github.com/feudalism-dev/build-glb.git
 cd build-glb
 npm install
 ```

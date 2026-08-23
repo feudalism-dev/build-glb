@@ -30,12 +30,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/feudlaism-dev/build-glb.git"
+    "url": "https://github.com/feudalism-dev/build-glb.git"
   },
   "bugs": {
-    "url": "https://github.com/feudlaism-dev/build-glb/issues"
+    "url": "https://github.com/feudalism-dev/build-glb/issues"
   },
-  "homepage": "https://github.com/feudlaism-dev/build-glb#readme",
+  "homepage": "https://github.com/feudalism-dev/build-glb#readme",
   "engines": {
     "node": ">=18"
   },
