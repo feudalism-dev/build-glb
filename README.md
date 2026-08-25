@@ -35,17 +35,24 @@ npm install
 
 ### Point it at your Exports folder
 
+The tool needs to know where Instamat writes textures. That path goes in a **local config file inside this project** (`build-glb`), **not** inside Instamat’s Exports folder.
+
+You will **not** see `exports-path.txt` until you create it (it is intentionally not shipped, so people’s private paths stay off GitHub).
+
 **Option A — config file (easiest on Windows)**
 
-```bash
-copy exports-path.example.txt exports-path.txt
-```
-
-Edit `exports-path.txt` to one line, e.g.:
+1. Open the `build-glb` folder (the one you cloned or downloaded from GitHub).
+2. Find `exports-path.example.txt`.
+3. Copy it and rename the copy to `exports-path.txt`  
+   (or in Command Prompt from that folder: `copy exports-path.example.txt exports-path.txt`).
+4. Open `exports-path.txt` in Notepad.
+5. Leave/replace the path line with **your** Instamat Exports folder, for example:
 
 ```
 C:\Users\YourName\Documents\InstaMAT\Exports
 ```
+
+Use your real Windows username instead of `YourName`. One path on one line. Lines starting with `#` are comments.
 
 **Option B — environment variable**
 
